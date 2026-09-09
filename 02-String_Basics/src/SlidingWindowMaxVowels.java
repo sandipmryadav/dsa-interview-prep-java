@@ -6,7 +6,7 @@ public class SlidingWindowMaxVowels {
 
     public static int maxVowels(String s , int k) {
         int count = 0;
-        int maxCount = 0;
+        int maxCount;
 
 
         for(int i = 0; i < k; i++) {
@@ -36,6 +36,6 @@ public class SlidingWindowMaxVowels {
     }
 
     public static void main(String[] args) {
-        System.out.println(maxVowels("abciiidef", 3)); // Output 3 aana chahiye
+        System.out.println(maxVowels("abciiidef", 3));
     }
 }
